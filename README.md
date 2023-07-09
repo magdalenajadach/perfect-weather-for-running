@@ -13,3 +13,8 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Tools
+1. [OpenWeather API](https://openweathermap.org/) to fetch some weather related data
+2. Geolocation 
