@@ -122,10 +122,20 @@
         "app-client-internals:static/chunks/app-client-internals.js"
       ],
       "async": false
+    },
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Header/Header.scss": {
+      "id": "(app-client)/./app/components/Header/Header.scss",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/page": [],
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/page": [
+      "static/css/app/page.css"
+    ],
     "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout": []
   }
 }
