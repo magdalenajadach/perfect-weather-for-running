@@ -1,4 +1,4 @@
-// File: /Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout.js
+// File: /Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
