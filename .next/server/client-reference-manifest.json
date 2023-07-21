@@ -133,9 +133,9 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout": [],
     "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/page": [
       "static/css/app/page.css"
-    ],
-    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout": []
+    ]
   }
 }
