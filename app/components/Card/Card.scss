@@ -1,0 +1,18 @@
+@use "../../settings/color" as *;
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: $green-f;
+}
+
+.card__image {
+  img {
+    width: 10rem;
+  }
+}

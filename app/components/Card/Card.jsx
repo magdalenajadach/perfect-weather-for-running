@@ -1,11 +1,16 @@
+import "./Card.scss";
+
 export default function Card({ inputs }) {
   return (
-    <div className="">
+    <div className="cards">
       {inputs.map((input) => {
         return (
-          <div>
-            <h2>{input.title}</h2>
-            <p> desc: {input.description}</p>
+          <div className="card">
+            <h2>Name: {input.title}</h2>
+            <p>Desc: {input.description}</p>
+            <div className="card__image">
+              <img alt="" src={input.image} />
+            </div>
           </div>
         );
       })}
