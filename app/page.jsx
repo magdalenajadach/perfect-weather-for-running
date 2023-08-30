@@ -1,16 +1,18 @@
 import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
 import Card from "./components/Card/Card";
 import Blob from "./components/Blob/Blob";
 import { inputs } from "./config/inputs";
 import { items } from "./config/items";
 export default function Home() {
-	return (
-		<main>
-			<Header />
-			<h2>Just go out there and run</h2>
-			<Card inputs={inputs} />
-			<Blob items={items} />
-		</main>
-	);
+  return (
+    <main>
+      <section className="wrapper">
+        <Nav />
+        <Header />
+        <Card inputs={inputs} />
+        <Blob items={items} />
+      </section>
+    </main>
+  );
 }
-

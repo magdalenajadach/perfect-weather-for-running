@@ -138,6 +138,14 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Nav/Nav.scss": {
+      "id": "(app-client)/./app/components/Nav/Nav.scss",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {

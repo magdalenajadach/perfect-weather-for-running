@@ -16,3 +16,11 @@
     width: 10rem;
   }
 }
+
+.wrapper {
+  max-width: 160rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
