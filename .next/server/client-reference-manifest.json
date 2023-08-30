@@ -131,16 +131,16 @@
       ],
       "async": false
     },
-    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Card/Card.scss": {
-      "id": "(app-client)/./app/components/Card/Card.scss",
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Nav/Nav.scss": {
+      "id": "(app-client)/./app/components/Nav/Nav.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Nav/Nav.scss": {
-      "id": "(app-client)/./app/components/Nav/Nav.scss",
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/components/Card/Card.scss": {
+      "id": "(app-client)/./app/components/Card/Card.scss",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -149,9 +149,9 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout": [],
     "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/page": [
       "static/css/app/page.css"
-    ],
-    "/Users/magdalenajadach/Desktop/projekty/perfect-weather-for-running/app/layout": []
+    ]
   }
 }

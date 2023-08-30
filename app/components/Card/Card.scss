@@ -1,7 +1,9 @@
 @use "../../settings/color" as *;
 
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 1rem;
   margin: 1rem;
   padding: 1rem;
@@ -9,11 +11,15 @@
 
 .card {
   background-color: $green-f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__image {
   img {
-    width: 10rem;
+    width: 30rem;
   }
 }
 

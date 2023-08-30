@@ -6,11 +6,12 @@ export default function Card({ inputs }) {
       {inputs.map((input) => {
         return (
           <div className="card">
-            <h2>Name: {input.title}</h2>
-            <p>Desc: {input.description}</p>
             <div className="card__image">
               <img alt="" src={input.image} />
             </div>
+            <h2>Name: {input.title}</h2>
+            <p>Desc: {input.description}</p>
+            <a src={input.src}>Link to the card</a>
           </div>
         );
       })}
