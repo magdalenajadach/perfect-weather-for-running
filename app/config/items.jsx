@@ -1,3 +1,4 @@
+// example api response
 export const items = [
 	{
 		coord: {
